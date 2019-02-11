@@ -1,0 +1,23 @@
+/*-----------------------------------------------------------------------------
+    $ Buttons
+-----------------------------------------------------------------------------*/
+
+.button {
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $light-black;
+    }
+
+    &[disabled],
+    &.\--disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}

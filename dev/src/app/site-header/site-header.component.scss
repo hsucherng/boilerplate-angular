@@ -1,0 +1,16 @@
+//==============================================================================
+//  Site Header
+//==============================================================================
+
+@import '../../scss/partials/globals/mixins';
+@import '../../scss/partials/globals/functions';
+@import '../../scss/partials/globals/variables';
+
+//----//
+
+:host {
+    padding: 15px;
+    display: block;
+    background-color: $black;
+    color: $white;
+}
